@@ -1,0 +1,3 @@
+What happens when you initialize a reposity?  Why do you need to do it?
+
+-Initializing creates the git repository.  If you don't initialize the repository it will never get created.
