@@ -1,3 +1,28 @@
 What happens when you initialize a reposity?  Why do you need to do it?
 
 -Initializing creates the git repository.  If you don't initialize the repository it will never get created.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+-The staging area allows you to choose specific files from your working directory to add to the repository.  if there are only a few specific files that you want added to your repository, the staging area allows for that level of customization
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+-By adding only a select number of files to the staging area, you can ensure that the files that are being committed are limited to those that contain logical changes made
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+-If you want to try different versions of your program / product but would still like to maintain your original working copy, you can create a git branch to have two or more different versions running in parallel
+
+How do the diagrams help you visualize the branch structure?
+
+-A diagram is useful for seeing where branches occur, and parents of commits.  This can be exceptionally useful where there may have occurred a 'detached HEAD' and there is a node that is untraceable via parent nodes 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+-The result is that code that is worked on independently will be merged into one document.  Showing the way that commit nodes can branch to different streams and come back together displays the history of the commits and the paths they took before merging.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+-Pros: Automates the process and reduces errors; Highlights conflicts so that you know exactly where problems occurred
+-Cons: 
