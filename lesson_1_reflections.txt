@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+-Viewing the diff limited the view of the changes
+-Limiting the view of the changes allowed me to narrow the possibilities of where the change occurred
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+-This would eliminate the need for saving different versions of files
+-By not having to save different versions of the same file, time can be saved on having to do that and think of proper file naming conventions
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does
+
+-Pros: Can logically group commit according to the task being performed
+-Cons: Need to remember when to perform commit; More vulnerable to system errors if not committing often and frequently
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+-Git is often used for working on multiple files at once that may be interconnected.
+-Google Docs is inherently dedicated to single documents, such as word docs or excel docs.  
+-Files that are simply word or excel are not fundamentally interrelated like code, and so can be treated separately
+
+How can you use the commands git log and git diff to view the history of files?
+
+-git log will allow you to see all of the commits, when they happened, by whom, and any associated comments
+-git diff will compare two different commit ids and higlight the additions and deletions
+
+How might using version control make you more confident to make changes that could break something?
+
+-Even if you make a change, you can always checkout to a previous commit and thereby erase any of the changes that have been made
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+-work related projects
